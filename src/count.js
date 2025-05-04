@@ -1,10 +1,8 @@
-
-
-export default function pgch() {
+function pgch() {
     const title = document.getElementById("cs_fullHeadTitle");
-    //if(title.innerHTML === <p id="repo" class="fj-icon fj-icon-report-stack-small"><span>レポート</span></p>)
+    if(title.innerHTML === <p id="repo" class="fj-icon fj-icon-report-stack-small"><span>レポート</span></p>)
         {
-        //count();
+        count();
         console.log(1);
     }
 };

@@ -9,7 +9,7 @@
     "content_scripts": [
       {
         "matches": ["https://lms.seikei.ac.jp/*"],
-        "js": ["src/count.js"]
+        "js": ["src/apply.js"]
       }
     ]
   }
