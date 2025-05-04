@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/src/bootstrap.min.css">
+</head>
+<html>
+    <body style="width: 400px; padding: 30px;">
+        <div class="container">
+        <h1>CP-Mod v1.0</h1>
+        <p>CoursePowerのカスタムをします</p>   
+        </div>
+        <form>
+            <label class="form-label">Settings</label>
+            <div class="mb-3">
+                <input type="checkbox" class="form-check-input" id="Ch1">
+                <label class="form-label">文字カウント機能</label>
+                <div id="emailHelp" class="form-text">アンケートとしての課題の時にもカウント機能を利用をできます</div>
+            </div>
+            <div class="mb-3">
+                <input type="checkbox" class="form-check-input" id="Ch2">
+                <label class="form-label">曜日割り当て機能</label>
+                <div id="emailHelp" class="form-text">当日の授業をマークします</div>
+            </div>
+            <div class="mb-3">
+                <input type="checkbox" class="form-check-input" id="Ch2">
+                <label class="form-label">背景色の変更</label>
+                <input type="color" class="form-control form-control-color" id="ClInput" value="#563d7c" title="Choose your color">
+                <div id="emailHelp" class="form-text">全ページの背景色を変更できます</div>
+            </div>
+            <button type="submit" id="submit" class="btn btn-primary">保存&適用</button>
+          </form>
+    </body>
+    <script src="save.js"></script>
+</html>

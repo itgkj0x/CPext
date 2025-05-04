@@ -1,0 +1,16 @@
+{
+    "name": "CoursePowerMod",
+    "description": "CoursePowerに機能を追加します",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "src/setting.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://lms.seikei.ac.jp/*"],
+        "js": ["src/count.js"]
+      }
+    ]
+  }
+  
