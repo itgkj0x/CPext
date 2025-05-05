@@ -6,6 +6,9 @@
     "action": {
       "default_popup": "src/setting.html"
     },
+    "permissions": [
+      "storage"
+    ],
     "content_scripts": [
       {
         "matches": ["https://lms.seikei.ac.jp/*"],
